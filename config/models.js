@@ -19,6 +19,9 @@ module.exports.models = {
   ************************************************************************** */
   // connection: 'localDiskDb',
 
+  // this is the name from the connections.js file
+  connection: 'localArangoDB',
+
   /** *************************************************************************
   *                                                                          *
   * How and whether Sails will attempt to automatically rebuild the          *

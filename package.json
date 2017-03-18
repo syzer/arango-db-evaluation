@@ -3,7 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
-  "keywords": ["hackaton", "evaluation", "medium-wow", "arango"],
+  "keywords": [
+    "hackaton",
+    "evaluation",
+    "medium-wow",
+    "arango"
+  ],
   "dependencies": {
     "ejs": "2.3.4",
     "grunt": "1.0.1",
