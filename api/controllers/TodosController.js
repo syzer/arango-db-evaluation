@@ -6,6 +6,8 @@
  */
 
 module.exports = {
-	
+    custom: (req, res) => {
+        res.send('Invoked custom action')
+    }
 }
 
