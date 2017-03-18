@@ -28,9 +28,9 @@ module.exports.connections = {
      * Installed by default.                                                    *
      *                                                                          *
      ************************************************************************** */
-    // localDiskDb: {
-    //     adapter: 'sails-disk'
-    // }
+    localDiskDb: {
+        adapter: 'sails-disk'
+    },
 
     /** *************************************************************************
      *                                                                          *
@@ -66,15 +66,15 @@ module.exports.connections = {
     // },
 
     /** arango db = mongo + graphs */
-    localArangoDB: {
-        adapter: 'sails-arangodb',
-        host: 'localhost',
-        port: 8529,
-        database: {
-            name: 'sails',
-            graph: 'sails'
-        }
-    },
+    // localArangoDB: {
+    //     adapter: 'sails-arangodb',
+    //     host: 'localhost',
+    //     port: 8529,
+    //     database: {
+    //         name: 'sails',
+    //         graph: 'sails'
+    //     }
+    // },
 
     /** *************************************************************************
      *                                                                          *

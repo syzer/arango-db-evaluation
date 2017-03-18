@@ -17,10 +17,10 @@ module.exports.models = {
   * connections (see `config/connections.js`)                                *
   *                                                                          *
   ************************************************************************** */
-  // connection: 'localDiskDb',
+  connection: 'localDiskDb',
 
   // this is the name from the connections.js file
-  connection: 'localArangoDB',
+  // connection: 'localArangoDB',
 
   /** *************************************************************************
   *                                                                          *
