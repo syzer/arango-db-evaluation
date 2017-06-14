@@ -1,5 +1,7 @@
 # Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/syzer/arango-db-evaluation.svg)](https://greenkeeper.io/)
+
 ```bash
 brew install arangodb
 ```
